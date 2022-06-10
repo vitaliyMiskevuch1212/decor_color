@@ -34,7 +34,7 @@ header nav a{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    transition: 0.4s;
+    transition: 0.3s;
     display: inline-block;
 }
 .logo {
@@ -43,5 +43,5 @@ header nav a{
 }
 header nav li a:hover {
     transform: rotate(360deg);
-    color: blue;
+    color: aqua;
 }

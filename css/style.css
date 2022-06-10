@@ -1,0 +1,47 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: blue;
+}
+.conteiner{
+    max-width:1113px;
+    margin: auto;
+}
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_banner {
+    background-image: url('../images/Rectangle 12 1.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 170px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+header nav li{
+    margin: 0 10px;
+}
+header nav a{
+    text-decoration: none;font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    transition: 0.3s;
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
+    margin-left: -50px;
+}
+header nav li a:hover {
+    transform: rotate(360deg);
+    color: blue;
+}
